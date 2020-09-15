@@ -5,7 +5,10 @@ import Reviews from './components/Reviews'
 function App() {
   return (
     <div className="App">
-      <Reviews />
+      <h1>My Ratings</h1>
+      <div className="reviews">
+        <Reviews />
+      </div>
     </div>
   )
 }
