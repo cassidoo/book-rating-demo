@@ -1,4 +1,4 @@
-# HarperDB + React Review App
+# HarperDB + React Book Rating App
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/977fc807-5047-4835-81fe-b1e11a3247e1/deploy-status)](https://app.netlify.com/sites/book-rating-demo/deploys)
 
