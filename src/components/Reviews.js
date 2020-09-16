@@ -6,7 +6,7 @@ import './Reviews.module.css'
 function Reviews({ type = 'books' }) {
   const [data, loading, error, refresh] = useHarperDB({
     query: { operation: 'sql', sql: `select * from reviews.${type}` },
-    interval: 10000,
+    interval: 50000,
   })
 
   if (loading) {
