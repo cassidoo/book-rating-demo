@@ -5,6 +5,7 @@
 This is a demo of React and HarperDB, showing some ratings for books. You might disagree with my ratings but you'll have to fight me on them some other time. Run `yarn start` after cloning and installing to get it going!
 
 Or, if you'd like to deploy this yourself to [Netlify](https://url.netlify.com/Bk4UicocL), click this button and it will clone it and deploy it. You'll need to complete the HarperDB setup to make it work properly!
+
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/book-rating-demo&utm_source=github&utm_medium=reactharperdb-cs&utm_campaign=devex)
 
 ## HarperDB setup
@@ -26,6 +27,6 @@ INSERT INTO reviews.books (bookid, name, author, review)
    VALUES(1, 'The Martian', 'Andy Weir', 5), (2, 'Big Little Lies', 'Liane Moriarty', 5), (3, 'The Girl on the Train', 'Paula Hawkins', 3)
 ```
 
-The application should look like this when working properly:
+The application should generally look like this out of the box when working properly:
 
 ![screenshot](screenshot.png)
